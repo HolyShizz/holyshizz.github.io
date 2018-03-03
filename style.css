@@ -6,7 +6,9 @@
 html {
     font-family: "Open Sans";
 }
-
+.pure-g [class*=pure-u] {
+    font-family: "Open Sans";
+}
 .headwrap {
     background-color: #f6f2f1;
 }
@@ -104,7 +106,6 @@ div.sectionwrapper {
     font-size: 42px;
     font-weight: bold;
     color:rgb(88,88,88);
-    text-shadow: 2px 2px gray;
     margin-top: 0;
     margin-bottom: 50px;
   }
@@ -133,10 +134,12 @@ div.sectionwrapper {
 }
 .thumbnails h3 {
     font-size: 24px;
+    color:gray;
 }
 .thumbnails p {
     font-size: 16px;
     margin: 1;
+    color: rgb(88,88,88);
 }
 .thumb-2 img {
     margin-top: 50px;
@@ -148,14 +151,45 @@ div.sectionwrapper {
 }
 
 
-div.grid-item {
-    height:260px;
-    margin:10px 10px 10px 10px;
+.divider-1  h2 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: bold;
 
-    width:290px;
-    border: grey solid 1px;
+    margin-bottom: 30px;
+}
+.divider-1 p {
+    font-size: 16px;
+    color:rgb(88,88,88);
+    margin-bottom: 60px;
+}
+div.divider-1 {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+
+div.grid {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+div.grid-item {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 23%;
 }
 .grid img {
     width:100%;
-    height:100%:
+    height: auto;
+}
+
+div.filter-nav {
+    text-align: center;
+    font-weight: bold;
 }
