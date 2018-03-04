@@ -86,9 +86,8 @@ header h1 {
     color: #f6f2f1;
 }
 div.video {
-    width:550px;
-    height:350px;
-    display: inline-block;
+   width: 100%;
+   height: 350px;
 }
 
 
@@ -155,7 +154,7 @@ div.sectionwrapper {
     text-transform: capitalize;
     font-size: 42px;
     font-weight: bold;
-
+    color: #f6f2f1:
     margin-bottom: 30px;
 }
 .divider-1 p {
@@ -192,4 +191,145 @@ div.grid-item {
 div.filter-nav {
     text-align: center;
     font-weight: bold;
+}
+
+.pure-menu-selected a  {
+    color: #ff3f40;
+}
+
+hr.hr1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #f6f2f1;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+
+;
+}
+hr.hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ff3f40;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 0;
+
+}
+
+.divider-2  h2 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: bold;
+    color: #f6f2f1:
+    margin-bottom: 30px;
+}
+
+.divider-2 p {
+    font-size: 16px;
+    color:rgb(88,88,88);
+    margin-bottom: 60px;
+}
+div.divider-2 {
+    text-align: left;
+    width: 35%;
+    margin-top: 50px;
+
+}
+hr.hr3 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ff3f40;
+    margin-right: 80%;
+    padding: 0;
+    margin-bottom: ;
+}
+
+div.divider-3 {
+    margin-top: 75px;
+}
+
+.divider-3  h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #312f30;
+}
+
+.divider-3 p {
+    font-size: 16px;
+    color:rgb(88,88,88);
+    margin-bottom: 30px;
+    color: #312f30;
+}
+
+.manimg img {
+    width: 100%;
+    height: 100%;
+}
+div.manimg{
+    height: 450px;
+}
+.divider-3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.divider-3 a {
+    text-decoration-line: none;
+    color: #312f30;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.peopleimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height:110px;
+    background-color:rgb(49, 48, 48);
+    margin-top: 1px;
+
+
+}
+footer p {
+    font-size: 16px;
+    color: #f6f2f1;
+    margin-top: 10px;
+}
+div.footwrapper{
+    margin: auto;
+    max-width:1250px;
+    padding-top:40px;
+    display: flex;
+    justify-content: space-between;
+
 }
