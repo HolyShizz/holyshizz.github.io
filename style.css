@@ -7,7 +7,7 @@ html {
     font-family: "Open Sans";
 }
 .pure-g [class*=pure-u] {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 .headwrap {
     background-color: #f6f2f1;
@@ -70,6 +70,7 @@ header h1 {
     font-stretch: ultra-expanded;
     letter-spacing: 9px;
     box-sizing: border-box;
+    color: #312f30;
 }
 .header-button h2 {
     width: 225px;
@@ -138,7 +139,7 @@ div.sectionwrapper {
 .thumbnails p {
     font-size: 16px;
     margin: 1;
-    color: rgb(88,88,88);
+    color: #312f30;
 }
 .thumb-2 img {
     margin-top: 50px;
@@ -193,8 +194,8 @@ div.filter-nav {
     font-weight: bold;
 }
 
-.pure-menu-selected a  {
-    color: #ff3f40;
+.pure-menu a  {
+    color: #312f30;
 }
 
 hr.hr1 {
@@ -216,6 +217,7 @@ hr.hr2 {
     margin-left: 40%;
     margin-right: 40%;
     padding: 0;
+    color: #312f30;
 
 }
 
@@ -223,7 +225,7 @@ hr.hr2 {
     text-transform: capitalize;
     font-size: 42px;
     font-weight: bold;
-    color: #f6f2f1:
+    color: #312f30;
     margin-bottom: 30px;
 }
 
@@ -231,6 +233,7 @@ hr.hr2 {
     font-size: 16px;
     color:rgb(88,88,88);
     margin-bottom: 60px;
+    color: #312f30;
 }
 div.divider-2 {
     text-align: left;
@@ -245,11 +248,11 @@ hr.hr3 {
     border-top: 3px solid #ff3f40;
     margin-right: 80%;
     padding: 0;
-    margin-bottom: ;
 }
 
 div.divider-3 {
     margin-top: 75px;
+    padding-bottom: 6em;
 }
 
 .divider-3  h3 {
@@ -291,12 +294,55 @@ div.peopleimg {
     justify-content: space-between;
 }
 
+div.divider-4 {
+    position: relative;
+    height: 25em;
+}
+div.blur {
+    position :absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    background-size:cover;
+    background: url("images/grey_town_by_wxcvbn11.jpg") ;
 
+}
+div.divider-4-content {
+    position :absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
 
+.divider-4-content {
+    text-align: center;
+    z-index: 100;
+}
+.divider-4 h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #312f30;
 
+}
+button.pure-button-primary {
+    background-color: #ff3f40;
+    border:5px;
+    margin-left: 1em;
+    box-shadow: #ff3f40 2px 2px;
+}
 
-
-
+.subscribe {
+    margin-top:5em;
+}
+.subscribe input {
+    width:20em;
+}
 
 
 
