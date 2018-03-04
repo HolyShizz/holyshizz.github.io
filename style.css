@@ -297,6 +297,7 @@ div.peopleimg {
 div.divider-4 {
     position: relative;
     height: 25em;
+    margin:0;
 }
 div.blur {
     position :absolute;
@@ -362,7 +363,8 @@ button.pure-button-primary {
 footer {
     height:110px;
     background-color:rgb(49, 48, 48);
-    margin-top: 1px;
+    margin: 0;
+
 
 
 }
