@@ -6,6 +6,9 @@
 html {
     font-family: "Open Sans";
 }
+body {
+    background-color:#f8f8ff ;
+}
 .pure-g [class*=pure-u] {
     font-family: "Open Sans", sans-serif;
 }
@@ -19,7 +22,7 @@ nav ul {
     text-align: center;
 }
 div.navigation {
-    border-radius: 4px;
+    border-radius: 10px;
     margin:auto;
     background-color: rgb(49, 48, 48);
     font-weight: bold;
@@ -39,7 +42,6 @@ li {
 }
 .active {
     background-color: rgb(255,63,64);
-    opacity: 30%;
 }
 div.header {
     max-width: 1400px;
@@ -91,15 +93,11 @@ div.video {
    height: 350px;
 }
 
-
-
-
-
-
 div.sectionwrapper {
     max-width: 1250px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 0px;
 }
 .firstsec-left h2 {
     text-transform: capitalize;
@@ -138,7 +136,7 @@ div.sectionwrapper {
 }
 .thumbnails p {
     font-size: 16px;
-    margin: 1;
+
     color: #312f30;
 }
 .thumb-2 img {
@@ -251,6 +249,7 @@ hr.hr3 {
 }
 
 div.divider-3 {
+
     margin-top: 75px;
     padding-bottom: 6em;
 }
@@ -271,11 +270,14 @@ div.divider-3 {
 }
 
 .manimg img {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    
+
 }
 div.manimg{
+    position: relative;
     height: 450px;
+    overflow: hidden;
 }
 .divider-3 ul {
     list-style: none;
@@ -296,8 +298,10 @@ div.peopleimg {
 
 div.divider-4 {
     position: relative;
-    height: 25em;
+    height: 500px;
     margin:0;
+    overflow:hidden;
+
 }
 div.blur {
     position :absolute;
@@ -309,6 +313,9 @@ div.blur {
     z-index: 99;
     background-size:cover;
     background: url("https://img00.deviantart.net/6e64/i/2009/219/4/b/grey_town_by_wxcvbn11.jpg") ;
+    webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
 
 }
 div.divider-4-content {
@@ -331,42 +338,85 @@ div.divider-4-content {
     color: #312f30;
 
 }
-button.pure-button-primary {
+.subscribe button{
     background-color: #ff3f40;
-    border:5px;
+    border: 15px;
     margin-left: 1em;
     box-shadow: #ff3f40 2px 2px;
+    height: 80px;
+    width: 220px;
+    font-weight: 900;
 }
-
 .subscribe {
     margin-top:5em;
 }
 .subscribe input {
-    width:20em;
+    width: 500px;
+    height: 80px;
+    background-color:#f6f2f1;
+    font-weight: bold;
 }
 
+div.divider-5 {
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 110px;
+}
+.divider-5  h3 {
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #312f30;
+}
+.divider-5 hr {
+    margin-bottom:80px;
+    margin-top:60px;
+}
+.divider-5 p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #312f30;
+}
 
+.malyava-message {
+    height: 250px;
+    background-color:#f6f2f1;
+    margin-bottom: 50px;
+}
+.touch {
+    height: 50px;
+    margin-bottom: 70px;
+    background-color:#f6f2f1;
+}
+button.send-malyava {
+    width: 100%;
+    height: 75px;
+    background-color: #ff3f40;
+    font-weight:bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+div.contacts {
+    height: 495px;
+    background-color: #312f30;
+    border-radius: 15px 4px 4px 15px;
+    text-align: left;
+    padding-left:5%;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+.contacts p {
+    color: #f6f2f1;
+}
+.contacts h3 {
+    color: #f6f2f1;
+}
 
 footer {
     height:110px;
     background-color:rgb(49, 48, 48);
     margin: 0;
-
-
-
 }
 footer p {
     font-size: 16px;
@@ -379,5 +429,4 @@ div.footwrapper{
     padding-top:40px;
     display: flex;
     justify-content: space-between;
-
 }
