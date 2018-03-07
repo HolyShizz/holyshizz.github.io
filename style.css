@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: "Open Sans";
+    font-family:"Open Sans";
     src:url("/home/web/Documents/htmlcss/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 html {
@@ -12,6 +12,7 @@ body {
 .pure-g [class*=pure-u] {
     font-family: "Open Sans", sans-serif;
 }
+
 .headwrap {
     background-color: #f6f2f1;
 }
@@ -44,7 +45,6 @@ li {
     background-color: rgb(255,63,64);
 }
 div.header {
-    max-width: 1400px;
     width: 100%;
     padding-top: 60px;
     margin:auto;
@@ -57,36 +57,47 @@ header p {
 }
 div.headcontent-right {
     text-align: right;
+    margin:auto;
 }
 div.headcontent {
     margin-top: 80px;
     padding-bottom: 110px;
 }
+@media only screen and (max-width:1250px) {
+    div.headcontent {
+        text-align: center;
+    }
+    div.headcontent-right {
+        text-align: center;
+    }
+    .contactus {
+        width: 40%;
+        margin:auto;
+        font-size: medium;
+        margin-bottom: 4%;
+    }
+    .contactus :hover {
+        box-shadow: #312f30 2px;
+    }
+
+}
 header h1 {
-    font-size: 3.75em;
+    font-size: 3.5em;
     font-weight: 900;
     font-family: "Open Sans";
     text-shadow: 1,5px 1,5px black;
     margin: auto;
+    letter-spacing: 5px;
     line-height: 1;
-    font-stretch: ultra-expanded;
-    letter-spacing: 9px;
     box-sizing: border-box;
     color: #312f30;
 }
-.header-button h2 {
-    width: 225px;
-    background-color: rgb(255,45,45);
-    border-radius: 5px;
-    height: 55px;
-    text-align: center;
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 5px 5px 5px;
-    line-height: 3;
-    font-weight: bold;
-    color: #f6f2f1;
+.contactus {
+    background-color: #ff3f40;
+    width:80%;
+    height:55px;
+    font-weight: 700;
+    font-size: medium;
 }
 div.video {
    width: 100%;
@@ -430,3 +441,43 @@ div.footwrapper{
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
