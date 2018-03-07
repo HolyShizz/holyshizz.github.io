@@ -1,16 +1,17 @@
 
 @font-face {
-    font-family:"Open Sans";
-    src:url("/home/web/Documents/htmlcss/fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-family:'Open Sans';
+    src :url("/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 html {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', serif;
 }
 body {
     background-color:#f8f8ff ;
+    cursor: default;
 }
 .pure-g [class*=pure-u] {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .headwrap {
@@ -36,7 +37,7 @@ nav a {
     text-decoration-line: none;
     color: #f6f2f1;
 }
-li {
+nav li {
     display: inline-block;
     height: 90px;
     line-height: 90px;
@@ -64,6 +65,9 @@ div.headcontent {
     padding-bottom: 110px;
 }
 @media only screen and (max-width:1250px) {
+    body {
+        margin: auto;
+    }
     div.headcontent {
         text-align: center;
     }
@@ -82,7 +86,7 @@ div.headcontent {
 
 }
 header h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 900;
     font-family: "Open Sans";
     text-shadow: 1,5px 1,5px black;
@@ -114,13 +118,13 @@ div.sectionwrapper {
     text-transform: capitalize;
     font-size: 42px;
     font-weight: bold;
-    color:rgb(88,88,88);
+    color:#312f30;
     margin-top: 0;
     margin-bottom: 50px;
   }
 .firstsec-left p {
     font-size: 16px;
-    color: gray;
+    color:gray;
     margin-bottom: 60px;
 }
 .learn-button h3 {
@@ -129,7 +133,7 @@ div.sectionwrapper {
     border-radius: 5px;
     height: 55px;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: Open Sans;
     font-size: 18px;
     font-weight: bold;
     box-shadow: 1px 1px 1px;
@@ -138,17 +142,13 @@ div.sectionwrapper {
     color: #ff3f40;
 }
 
-.thumbnails  {
-
-}
 .thumbnails h3 {
     font-size: 24px;
-    color:gray;
+    color:#312f30;
 }
 .thumbnails p {
     font-size: 16px;
-
-    color: #312f30;
+    color: gray;
 }
 .thumb-2 img {
     margin-top: 50px;
@@ -164,13 +164,14 @@ div.sectionwrapper {
     text-transform: capitalize;
     font-size: 42px;
     font-weight: bold;
-    color: #f6f2f1:
+    color: #312f30;
     margin-bottom: 30px;
 }
 .divider-1 p {
     font-size: 16px;
-    color:rgb(88,88,88);
+    color:gray;
     margin-bottom: 60px;
+    margin-top:10px; 
 }
 div.divider-1 {
     text-align: center;
@@ -179,32 +180,46 @@ div.divider-1 {
     margin-top: 50px;
 
 }
-
+div.filter-nav {
+    text-align: center;
+    font-weight: bold;
+    width:80%;
+    margin: auto;
+}
 
 div.grid {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 
 }
-
-
 div.grid-item {
     text-align: center;
     padding: 10px 10px 10px 10px;
-    width: 23%;
+    width: 25%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 .grid img {
     width:100%;
     height: auto;
 }
 
-div.filter-nav {
-    text-align: center;
-    font-weight: bold;
+
+div.filter-content {
+    min-height: 600px;
+    max-height: 900px;
+    margin-bottom: 50px; 
 }
 
 .pure-menu a  {
     color: #312f30;
+    border-radius: 5px;
+    background-color: #f8f8ff; 
+}
+.pure-menu a:link {
+    background-color:#f8f8ff; 
+    cursor: pointer;
 }
 
 hr.hr1 {
@@ -240,7 +255,7 @@ hr.hr2 {
 
 .divider-2 p {
     font-size: 16px;
-    color:rgb(88,88,88);
+    color:gray;
     margin-bottom: 60px;
     color: #312f30;
 }
@@ -277,7 +292,7 @@ div.divider-3 {
     font-size: 16px;
     color:rgb(88,88,88);
     margin-bottom: 30px;
-    color: #312f30;
+    color:gray;
 }
 
 .manimg img {
@@ -306,7 +321,9 @@ div.peopleimg {
     display: flex;
     justify-content: space-between;
 }
-
+.peopleimg  div {
+    overflow: hidden;
+}
 div.divider-4 {
     position: relative;
     height: 500px;
