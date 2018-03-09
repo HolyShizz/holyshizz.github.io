@@ -1,0 +1,522 @@
+.container {
+    max-width:1250px;
+    width:100;
+    margin:0;
+    margin:auto;
+}
+.header {
+    background-color:#f6f2f1;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    margin-bottom: 1px;
+}
+@font-face {
+    font-family:'Open Sans';
+    src :url("/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+html {
+    font-family: 'Open Sans', serif;
+}
+body {
+    background-color:#f8f8ff ;
+    cursor: default;
+}
+.pure-g [class*=pure-u] {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headwrap {
+    background-color: #f6f2f1;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+div.navigation {
+    border-radius: 10px;
+    margin:auto;
+    background-color: rgb(49, 48, 48);
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 5px 10px 18px;
+}
+nav a {
+    display: inline-block;
+    width: 90px;
+    text-decoration-line: none;
+    color: #f6f2f1;
+}
+nav li {
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+}
+.active {
+    background-color: rgb(255,63,64);
+}
+
+div.headcontent {
+    margin-top: 80px;
+    padding-bottom: 110px;
+}
+iframe {
+    padding: 2px;
+    box-sizing: border-box;
+}
+header p {
+    color: rgb(154,152,152);
+    font-style: italic;
+}
+div.headcontent-right {
+    text-align: right;
+    margin:auto;
+}
+
+/*header media <1250px*/
+
+/*header media <1250px end*/
+header h1 {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: "Open Sans";
+    text-shadow: 1,5px 1,5px black;
+    margin: auto;
+    letter-spacing: 5px;
+    line-height: 1;
+    box-sizing: border-box;
+    color: #312f30;
+}
+.contactus {
+    background-color: #ff3f40;
+    width:80%;
+    height:55px;
+    font-weight: 700;
+    font-size: medium;
+    border-radius: 10px;
+    color: #f6f2f1;
+}
+div.headcontent-right {
+   height: 350px;
+}
+@media screen and only (min-width=360px) {
+    div.headcontent-right {
+       width:80%;
+       height:100px;
+       margin-left: 10%;
+       margin-right: 10%; 
+    }
+}
+div.sectionwrapper {
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.firstsec-left h2 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: bold;
+    color:#312f30;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+.firstsec-left p {
+    font-size: 16px;
+    color:gray;
+    margin-bottom: 60px;
+}
+.learn-button h3 {
+    width: 225px;
+    border: 2px solid #ff3f40;
+    border-radius: 5px;
+    height: 55px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px;
+    line-height: 3;
+    font-weight: bold;
+    color: #ff3f40;
+}
+
+.firstsec-right h3 {
+    font-size: 24px;
+    color:#312f30;
+}
+.firstsec-right p {
+    font-size: 16px;
+    color: gray;
+}
+.thumb-2 img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.thumb-1 img {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* первая секция под хедером меньше 1250*/
+@media  only screen and (max-width:1250px) {
+    .firstsec-left {
+        text-align:center;
+    }
+    div.learn-button h3 {
+        margin: auto;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .firstsec-right {
+        text-align: center;
+    }
+    .firstsec-right img {
+        margin-bottom: 10px;
+        margin-top: 10px; 
+    }
+    div.firstsec-left {
+        border-bottom: 1px dashed #ff3f40;
+        border-radius: 50px;
+    }
+
+}
+
+.divider-1  h2 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: bold;
+    color: #312f30;
+    margin-bottom: 30px;
+}
+.divider-1 p {
+    font-size: 16px;
+    color:gray;
+    margin-bottom: 60px;
+    margin-top:10px; 
+}
+div.divider-1 {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+div.filter-nav {
+    text-align: center;
+    font-weight: bold;
+    width:80%;
+    margin: auto;
+}
+
+div.grid {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+div.grid-item {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 25%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.grid img {
+    width:100%;
+    height: auto;
+}
+
+
+div.filter-content {
+    min-height: 600px;
+    max-height: 900px;
+    margin-bottom: 50px; 
+}
+
+.pure-menu a  {
+    color: #312f30;
+    border-radius: 5px;
+    background-color: #f8f8ff; 
+}
+.pure-menu a:link {
+    background-color:#f8f8ff; 
+    cursor: pointer;
+}
+
+hr.hr1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #f6f2f1;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+
+;
+}
+hr.hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ff3f40;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 0;
+    color: #312f30;
+
+}
+
+.divider-2  h2 {
+    text-transform: capitalize;
+    font-size: 42px;
+    font-weight: bold;
+    color: #312f30;
+    margin-bottom: 30px;
+}
+
+.divider-2 p {
+    font-size: 16px;
+    color:gray;
+    margin-bottom: 60px;
+    color: #312f30;
+}
+div.divider-2 {
+    text-align: left;
+    width: 35%;
+    margin-top: 50px;
+
+}
+hr.hr3 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ff3f40;
+    margin-right: 80%;
+    padding: 0;
+}
+
+div.divider-3 {
+
+    margin-top: 75px;
+    padding-bottom: 6em;
+}
+
+.divider-3  h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #312f30;
+}
+
+.divider-3 p {
+    font-size: 16px;
+    color:rgb(88,88,88);
+    margin-bottom: 30px;
+    color:gray;
+}
+
+.manimg img {
+    position: absolute;
+    height:450px;
+}
+div.manimg{
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+.divider-3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.divider-3 a {
+    text-decoration-line: none;
+    color: #312f30;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.peopleimg {
+    display: flex;
+    justify-content: space-between;
+}
+.peopleimg  div {
+    overflow: hidden;
+}
+div.divider-4 {
+    position: relative;
+    height: 500px;
+    margin:0;
+    overflow:hidden;
+
+}
+div.blur {
+    position :absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    background-size:cover;
+    background: url("https://img00.deviantart.net/6e64/i/2009/219/4/b/grey_town_by_wxcvbn11.jpg") ;
+    webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+
+}
+div.divider-4-content {
+    position :absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.divider-4-content {
+    text-align: center;
+    z-index: 100;
+}
+.divider-4 h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #312f30;
+
+}
+.subscribe button{
+    background-color: #ff3f40;
+    border: 15px;
+    margin-left: 1em;
+    box-shadow: #ff3f40 2px 2px;
+    height: 80px;
+    width: 220px;
+    font-weight: 900;
+}
+.subscribe {
+    margin-top:5em;
+}
+.subscribe input {
+    width: 500px;
+    height: 80px;
+    background-color:#f6f2f1;
+    font-weight: bold;
+}
+
+div.divider-5 {
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 110px;
+}
+.divider-5  h3 {
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #312f30;
+}
+.divider-5 hr {
+    margin-bottom:80px;
+    margin-top:60px;
+}
+.divider-5 p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #312f30;
+}
+
+.malyava-message {
+    height: 250px;
+    background-color:#f6f2f1;
+    margin-bottom: 50px;
+}
+.touch {
+    height: 50px;
+    margin-bottom: 70px;
+    background-color:#f6f2f1;
+}
+button.send-malyava {
+    width: 100%;
+    height: 75px;
+    background-color: #ff3f40;
+    font-weight:bold;
+}
+
+div.contacts {
+    height: 495px;
+    background-color: #312f30;
+    border-radius: 15px 4px 4px 15px;
+    text-align: left;
+    padding-left:5%;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+.contacts p {
+    color: #f6f2f1;
+}
+.contacts h3 {
+    color: #f6f2f1;
+}
+
+footer {
+    height:110px;
+    background-color:rgb(49, 48, 48);
+    margin: 0;
+}
+footer p {
+    font-size: 16px;
+    color: #f6f2f1;
+    margin-top: 10px;
+}
+div.footwrapper{
+    margin: auto;
+    max-width:1250px;
+    padding-top:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
